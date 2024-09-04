@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    //@media (até qual tamanho vc quer aplicar aquele estilo)
+   @media (max-width:800px){
+     background-color: aqua;
+   }
+}
+
+h1{
+    color: gold;
+}
+p{
+    border: solid salmon;
+    width: 50vw;
+
+    //para esconder uma tag
+    //display é respondavel pelo comportamento da tela
+    @media (max-width: 500px){
+        display: none;
+    }
+}
+
+img{
+    width: 60vw;
+}
+.caixa1{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+
+    @media (max-width:800px){
+        width: 100vw;
+    }
+}
+.cenoura{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+}
